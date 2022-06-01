@@ -1,12 +1,43 @@
-
 .wrapper {
 }
 .header {
+    text-align: center;
+    font-size: 2em;
+    margin: 0.4em;
+    font-style: italic;
 }
 .container {
+  max-width: 1046px;
+  margin: 0 auto;
 }
 .main {
-    flex: 1 1 auto;
+  flex: 1 1 auto;
+}
+.main__blocks {
+  display: flex;
+  width: calc(3*100vw);
+}
+.block {
+  width: 100vw;
+  height: 77vh;
+}
+.move {
+  margin-left: -100vw;
+  transition: all 2s;
+}
+.block1 {
+  background-color: aqua;
+}
+.block2 {
+  background-color: rgb(145, 255, 0);
+}
+.block3 {
+  background-color: rgb(204, 0, 255);
 }
 .footer {
+    text-align: center;
+    font-size: 2em;
+    margin: 0.4em;
+    font-style: italic;
+    line-height: 1.2;
 }
