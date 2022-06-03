@@ -59,6 +59,30 @@
   width: 10%;
   margin-right: 3vw;
 }
+.tel__block {
+  margin-top: 10vh;
+}
+.tel__block h1 {
+  margin-bottom: 2vh;
+  font-size: 5vh;
+}
+.tel__block input {
+  width: 60%;
+  padding: 2vh;
+  font-size: 4vh;
+}
+.pay__block {
+  margin-top: 3vh;
+}
+.pay__block h1 {
+  margin-bottom: 2vh;
+  font-size: 5vh;
+}
+.pay__block input {
+  width: 60%;
+  padding: 2vh;
+  font-size: 4vh;
+}
 .footer {
   text-align: center;
   font-size: 2em;
