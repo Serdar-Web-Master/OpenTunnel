@@ -83,6 +83,10 @@
   padding: 2vh;
   font-size: 4vh;
 }
+.btn__ok {
+  width: 40%;
+  font-size: 3vh
+}
 .footer {
   text-align: center;
   font-size: 2em;
