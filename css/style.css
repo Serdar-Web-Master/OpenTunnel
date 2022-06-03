@@ -55,6 +55,10 @@
   color: white;
   margin-top: 6vh;
 }
+.btn img {
+  width: 10%;
+  margin-right: 3vw;
+}
 .footer {
   text-align: center;
   font-size: 2em;
