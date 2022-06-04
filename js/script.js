@@ -1,22 +1,22 @@
-const block1 = document.querySelector ('.block1');
-const block2 = document.querySelector ('.block2');
-const key = document.querySelector ('.key');
-const pay__kod = document.querySelector ('.pay__kod');
-const btn__ok = document.querySelector ('.btn__ok');
+const block1 = document.querySelector(".block1");
+const block2 = document.querySelector(".block2");
+const key = document.querySelector(".key");
+const pay__kod = document.querySelector(".pay__kod");
+const btn__ok = document.querySelector(".btn__ok");
+const ssylka1 = document.querySelector(".ssylka1");
 
-setTimeout(f1,5000);
+setTimeout(f1, 5000);
 
-function f1 () {
-    console.log("360px");
-    block1.classList.add('move')
+function f1() {
+  block1.classList.add("move");
 }
 
-key.addEventListener("click",f2)
-function f2 () {
-    console.log("720px");
-    block2.classList.add('move')
+key.addEventListener("click", f2);
+
+function f2() {
+  block2.classList.add("move");
 }
-btn__ok.addEventListener("click",f3)
+btn__ok.addEventListener("click", f3);
 
 const admin = 250179;
 const aiya = 160491;
@@ -32,13 +32,25 @@ const client9 = 136706;
 const client10 = 935669;
 
 function f3() {
-    const kod = pay__kod.value;
-    console.log(kod);
-    if (kod == admin || kod == aiya || kod == client1 || kod == client2 || kod == client3 || kod == client4 || kod == client5 || kod == client6 || kod == client7 || kod == client8 || kod == client9 || kod == client10) {
-      ssylka1.click();
-      console.log("ssylka1");
-    }
-    else {
-      alert("Код Неверный");
-    }
+  const kod = pay__kod.value;
+  console.log(kod);
+  if (
+    kod == admin ||
+    kod == aiya ||
+    kod == client1 ||
+    kod == client2 ||
+    kod == client3 ||
+    kod == client4 ||
+    kod == client5 ||
+    kod == client6 ||
+    kod == client7 ||
+    kod == client8 ||
+    kod == client9 ||
+    kod == client10
+  ) {
+    ssylka1.click();
+    console.log("ssylka1");
+  } else {
+    alert("Код Неверный");
+  }
 }
