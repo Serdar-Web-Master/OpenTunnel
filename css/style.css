@@ -69,7 +69,7 @@
 .tel__block input {
   width: 60%;
   padding: 2vh;
-  font-size: clamp(25px,4vh,6vh);
+  font-size: clamp(25px,4vh,5vh);
 }
 .pay__block {
   margin-top: 3vh;
@@ -81,7 +81,7 @@
 .pay__block input {
   width: 60%;
   padding: 2vh;
-  font-size: clamp(25px,4vh,6vh);
+  font-size: clamp(25px,4vh,5vh);
 }
 .btn__ok {
   width: 40%;
