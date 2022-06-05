@@ -3,7 +3,12 @@ const block2 = document.querySelector(".block2");
 const key = document.querySelector(".key");
 const pay__kod = document.querySelector(".pay__kod");
 const btn__ok = document.querySelector(".btn__ok");
+
 const ssylka1 = document.querySelector(".ssylka1");
+const ssylka2 = document.querySelector(".ssylka2");
+const ssylka3 = document.querySelector(".ssylka3");
+const ssylka4 = document.querySelector(".ssylka4");
+const ssylka5 = document.querySelector(".ssylka5");
 
 setTimeout(f1, 5000);
 
