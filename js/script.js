@@ -54,7 +54,7 @@ function f3() {
     kod == client10
   ) {
     ssylka1.click();
-    console.log("ssylka1");
+    console.log("ssylka5");
   } else {
     alert("Код Неверный");
   }
